@@ -77,16 +77,6 @@ add_executable(idknot src/idknot.cpp)
 target_link_libraries(idknot recombo_core)
 
 # Legacy unit tests
-add_executable(legacyUnitTest
-        src/tests/unitTestMain.cpp
-        src/tests/autocorrTests.cpp
-        src/tests/clkTests.cpp
-        src/tests/randomTests.cpp
-        src/tests/recomboCriteriaTests.cpp
-        src/tests/testFramework.cpp)
-target_link_libraries(legacyUnitTest recombo_core gtest gtest_main)
-include(GoogleTest)
-gtest_discover_tests(legacyUnitTest)
 
 enable_testing()
 add_subdirectory(test)
