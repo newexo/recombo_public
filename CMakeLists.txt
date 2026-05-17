@@ -31,6 +31,7 @@ add_library(recombo_core STATIC
         src/legacy.cpp
         src/legacyBfacf.cpp
         src/bfacfMove.cpp
+        src/edgePool.cpp
         src/mmc_config.cpp
         src/mmchain.cpp
         src/newsud.cpp
