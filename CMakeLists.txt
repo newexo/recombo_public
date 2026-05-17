@@ -30,6 +30,7 @@ add_library(recombo_core STATIC
         src/json11.cpp
         src/legacy.cpp
         src/legacyBfacf.cpp
+        src/bfacfMove.cpp
         src/mmc_config.cpp
         src/mmchain.cpp
         src/newsud.cpp
