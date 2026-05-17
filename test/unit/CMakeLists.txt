@@ -1,4 +1,5 @@
 add_executable(unitTest
+        autocorr_test.cpp
         clk_test.cpp
         mmc_config_test.cpp
         newsud_test.cpp
