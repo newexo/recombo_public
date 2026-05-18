@@ -1,4 +1,5 @@
 #include "clkConfig.h"
+#include "clkConstants.h"
 
 #include <cstdio>
 #include <cstdlib>

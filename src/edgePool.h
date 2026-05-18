@@ -1,9 +1,6 @@
 #pragma once
 
 #include "clkTypes.h"
-#include "clkConstants.h"
-#include "clkTables.h"
-#include "clkGeometry.h"
 
 void swapEdgesPool(CubicLatticeKnotPtr clkp, int loc1, int loc2);
 void freezeEdge(CubicLatticeKnotPtr clkp, EdgePtr ep);

@@ -1,13 +1,10 @@
 #pragma once
 
 #include "clkTypes.h"
-#include "clkConstants.h"
-#include "clkTables.h"
-#include "clkGeometry.h"
 
 // Structure validation
 int clk_validate(CubicLatticeKnotPtr clkp);
-void clk_validate(CubicLatticeKnotPtr clkp, char *s);
+void clk_validate(CubicLatticeKnotPtr clkp, char* s);
 
 // Increment validation
 bool clk_check_increment(ivector incr);

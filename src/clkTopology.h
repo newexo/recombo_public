@@ -1,8 +1,6 @@
 #pragma once
 
 #include "clkTypes.h"
-#include "clkConstants.h"
-#include "clkTables.h"
 
 // Topology detection
 EdgePtr is_tight_clasp(CubicLatticeKnotPtr clkp, EdgePtr ep);
