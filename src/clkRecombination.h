@@ -1,6 +1,9 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
+#include "clkTables.h"
+#include "clkGeometry.h"
 
 void clk_fix_incr(EdgePtr ep);
 bool perform_recombination_inverted(CubicLatticeKnotPtr clkp, EdgePtr ep1, EdgePtr ep2);

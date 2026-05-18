@@ -1,6 +1,9 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
+#include "clkTables.h"
+#include "clkGeometry.h"
 
 // Structure validation
 int clk_validate(CubicLatticeKnotPtr clkp);

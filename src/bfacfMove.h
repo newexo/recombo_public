@@ -1,6 +1,8 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
+#include "clkTables.h"
 
 // Lookup tables for BFACF moves
 extern int opposite[6];

@@ -1,6 +1,7 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
 
 void bfacf_set_probabilities(ComponentCLKPtr comp, double pm2, double p0, double pp2);
 void bfacf_set_probabilities(ComponentCLKPtr comp, double z);

@@ -1,6 +1,7 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
 
 EdgePtr clk_get_edge(CubicLatticeKnotPtr clkp, ivector start);
 int clk_count_edges(EdgePtr ep);

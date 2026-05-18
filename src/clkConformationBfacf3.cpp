@@ -6,7 +6,7 @@
  */
 
 #include "clkConformationBfacf3.h"
-#include "legacyBfacf.h"
+#include "bfacf.h"
 #include "threevector.h"   //Diwen 08/22/2018
 #include "legacy.h" //Diwen 01/08/2019
 #include "writhe.h"

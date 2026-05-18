@@ -1,4 +1,5 @@
 #include "bfacfMove.h"
+#include "bfacf.h"
 
 #include <cstdlib>
 

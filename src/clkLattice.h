@@ -1,6 +1,8 @@
 #pragma once
 
-#include "legacyBfacf.h"
+#include "clkTypes.h"
+#include "clkConstants.h"
+#include "clkTables.h"
 
 void init_lattice(CubicLatticeKnotPtr clkp, ivector mid);
 bool recentre_knot_in_lattice(CubicLatticeKnotPtr knot);

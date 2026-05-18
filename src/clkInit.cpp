@@ -1,4 +1,5 @@
 #include "clkInit.h"
+#include "bfacf.h"
 #include "clkLattice.h"
 
 #include <cstdio>

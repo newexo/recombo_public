@@ -1,4 +1,5 @@
 #include "clkRecombination.h"
+#include "bfacf.h"
 
 #include <cstdio>
 #include <cstring>
