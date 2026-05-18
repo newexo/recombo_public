@@ -37,6 +37,7 @@ add_library(recombo_core STATIC
         src/clkLattice.cpp
         src/clkTopology.cpp
         src/clkGeometry.cpp
+        src/clkConfig.cpp
         src/mmc_config.cpp
         src/mmchain.cpp
         src/newsud.cpp
