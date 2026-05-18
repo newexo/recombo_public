@@ -34,6 +34,7 @@ add_library(recombo_core STATIC
         src/edgePool.cpp
         src/clkRecombination.cpp
         src/clkValidation.cpp
+        src/clkLattice.cpp
         src/mmc_config.cpp
         src/mmchain.cpp
         src/newsud.cpp
